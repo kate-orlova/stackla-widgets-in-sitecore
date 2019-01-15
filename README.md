@@ -3,3 +3,6 @@ Stackla widgets in Sitecore project helps you to bring a user-generated content 
 
 ## Integration
 Stackla offers three API options for flexible integration: JavaScript, REST and Webhooks.
+
+## License
+The Stackla widgets in Sitecore module is released under the MIT license what means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
