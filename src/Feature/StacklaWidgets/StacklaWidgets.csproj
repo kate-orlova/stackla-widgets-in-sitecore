@@ -97,6 +97,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\StacklaWidget.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
