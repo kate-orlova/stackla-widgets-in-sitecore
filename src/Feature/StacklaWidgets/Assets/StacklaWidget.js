@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
 
-class StacklaWidget {
+class StacklaWidget extends Component {
 }
 export default StacklaWidget;
