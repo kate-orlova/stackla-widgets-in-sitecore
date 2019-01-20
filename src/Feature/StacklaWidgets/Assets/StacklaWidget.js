@@ -3,5 +3,8 @@
 class StacklaWidget extends Component {
     componentDidMount() {
     }
+
+    loadStacklaWidget(doc, id) {
+    }
 }
 export default StacklaWidget;
