@@ -3,6 +3,7 @@
 class StacklaWidget extends Component {
     componentDidMount() {
         const clickableParentElements = ['A', 'BUTTON'];
+        const rootIsClickable = clickableParentElements.indexOf(this.root.nodeName) > -1;
         this.loadStacklaWidget(document, 'stacklafw-js');
     }
 
