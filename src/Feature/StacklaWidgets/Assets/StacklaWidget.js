@@ -2,6 +2,7 @@
 
 class StacklaWidget extends Component {
     componentDidMount() {
+        const clickableParentElements = ['A', 'BUTTON'];
         this.loadStacklaWidget(document, 'stacklafw-js');
     }
 
