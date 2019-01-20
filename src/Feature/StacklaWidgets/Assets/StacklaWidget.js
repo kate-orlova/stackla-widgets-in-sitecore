@@ -2,9 +2,10 @@
 
 class StacklaWidget extends Component {
     componentDidMount() {
+        this.loadStacklaWidget(document, 'stacklafw-js');
     }
 
-    loadStacklaWidget(doc, id) {
+    loadStacklaWidget(d, id) {
     }
 }
 export default StacklaWidget;
