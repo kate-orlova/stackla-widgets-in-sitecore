@@ -2,7 +2,7 @@
 Stackla widgets in Sitecore project helps you to bring a user-generated content on social networks to a Sitecore-powered website via integration with [Stackla](https://stackla.com/) - a world leading visual content engine aggregating the selected content from Facebook, Twitter, Instagram, YouTube, Flickr, Pinterest and presents it in a clean & visual interface.
 
 # Introduction
-As soon as registered for a specific Stackla product, you will be granted access to Stackla Dashboard where you can create a new widget. Simply go to **Engage > Widgets > Create New Widget** and select one from the available *Widget Types* depending on your license entitlements, next create a filter to specify what social content you would like to load and in what order present items. Once all settings have been completed, your widget code will be generated in the *Embed Code* tab. 
+As soon as registered for a specific Stackla product, you will be granted access to Stackla Dashboard where you can create a new widget. Simply go to **Engage > Widgets > Create New Widget** and select one from the available *Widget Types* depending on your license entitlements, next create a filter to specify what social content you would like to load and in what order present items. Once all settings have been completed, your widget code will be generated in the *Embed Code* tab. You will simply need to click on a *Copy* button to get the entire widget code and then paste that embed code into your Sitecore module.
 
 ## Integration
 Stackla offers three API options for flexible integration: JavaScript, REST and Webhooks.
