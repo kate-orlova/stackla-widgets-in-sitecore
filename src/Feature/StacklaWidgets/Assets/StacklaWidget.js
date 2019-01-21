@@ -4,7 +4,11 @@ class StacklaWidget extends Component {
     componentDidMount() {
         const clickableParentElements = ['A', 'BUTTON'];
         const rootIsClickable = clickableParentElements.indexOf(this.root.nodeName) > -1;
-        this.loadStacklaWidget(document, 'stacklafw-js');
+        if (rootIsClickable) {
+            return;
+        } else {
+            this.loadStacklaWidget(document, 'stacklafw-js');
+        }
     }
 
     loadStacklaWidget(d, id) {
@@ -16,4 +20,5 @@ class StacklaWidget extends Component {
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(t);
     }
 }
+
 export default StacklaWidget;
