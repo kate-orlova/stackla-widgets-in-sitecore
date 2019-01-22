@@ -5,7 +5,10 @@ class StacklaWidget extends Component {
         const clickableParentElements = ['A', 'BUTTON'];
         const rootIsClickable = clickableParentElements.indexOf(this.root.nodeName) > -1;
         if (rootIsClickable) {
-            return;
+            this.root.addEventListener('click',
+                () => {
+                    this.loadWidget(document, 'stacklafw-js');
+                });
         } else {
             this.loadStacklaWidget(document, 'stacklafw-js');
         }
