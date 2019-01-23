@@ -15,6 +15,11 @@ class StacklaWidget extends Component {
     }
 
     loadStacklaWidget(d, id) {
+        /* check whether the widget is already loaded or not */
+        if (window.Stackla) {
+            return;
+        }
+
         if (d.getElementById(id)) return;
         var t = d.createElement('script');
         t.type = 'text/javascript';
