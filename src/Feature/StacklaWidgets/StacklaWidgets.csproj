@@ -89,6 +89,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Views\EmbedCodeStacklaWidget.cshtml" />
+    <Content Include="Views\EventDrivenStacklaWidget.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
