@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Scripts\Index.js" />
     <Content Include="Views\EmbedCodeStacklaWidget.cshtml" />
     <Content Include="Views\EventDrivenStacklaWidget.cshtml" />
     <None Include="Web.Debug.config">
