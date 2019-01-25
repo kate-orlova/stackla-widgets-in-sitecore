@@ -6,6 +6,8 @@ class App {
         this.mount = document.querySelector(config.mount) || '';
         this.components = config.components || {};     
     }
+    initComponents(target = this.mount) {
+    }
   
 }
 
