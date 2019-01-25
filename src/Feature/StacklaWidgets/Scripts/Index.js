@@ -3,7 +3,8 @@
 class App {
 
     constructor(config) {
-       
+        this.mount = document.querySelector(config.mount) || '';
+        this.components = config.components || {};     
     }
   
 }
