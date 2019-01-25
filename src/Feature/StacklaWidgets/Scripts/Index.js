@@ -2,4 +2,9 @@
 
 class App {
 
+    constructor(config) {
+       
+    }
+  
 }
+
