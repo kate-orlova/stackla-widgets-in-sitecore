@@ -5,7 +5,7 @@ namespace StacklaWidgets.Models
     public class StacklaWidget
     {
         [SitecoreField("Stackla Id")] public virtual string StacklaId { get; set; }
-
+        [SitecoreField("Stackla Filter Id")] public virtual string StacklaFilterId { get; set; }
         [SitecoreField("Stackla Hash")] public virtual string StacklaHash { get; set; }
     }
 }
