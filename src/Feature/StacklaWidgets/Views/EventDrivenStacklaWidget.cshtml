@@ -1,11 +1,12 @@
-﻿<a href="#social-feed" data-ref="link" data-component="loadStacklaWidget">Your text for the end-users to activate your social feed</a>
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<StacklaWidgets.Models.StacklaWidget>
+<a href="#social-feed" data-ref="link" data-component="loadStacklaWidget">Your text for the end-users to activate your social feed</a>
 <section data-ref="panel" data-panel-id="social-feed">
-    <div class='stacklafw'
-         data-id='12345'
+    <div class="stacklafw"
+         data-id="@Model.StacklaId"
          data-filter="7777"
-         data-hash='abcdefghijklmn'
-         data-ct=''
-         data-alias='stackla-developer.stackla.com'
+         data-hash="abcdefghijklm"
+         data-ct=""
+         data-alias="stackla-developer.stackla.com"
          data-ttl="30"
          style="overflow: hidden;">
     </div>
