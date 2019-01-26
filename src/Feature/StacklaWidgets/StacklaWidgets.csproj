@@ -112,7 +112,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IStacklaWidget.cs" />
     <Compile Include="Models\StacklaWidget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
