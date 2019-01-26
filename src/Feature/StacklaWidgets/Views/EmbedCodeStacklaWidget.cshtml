@@ -1,5 +1,6 @@
-﻿<div class='stacklafw'
-     data-id='12345'
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<StacklaWidgets.Models.StacklaWidget>
+<div class='stacklafw'
+     data-id='@Model.StacklaId'
      data-filter="7777"
      data-hash='abcdefghijklmn'
      data-ct=''
@@ -7,7 +8,7 @@
      data-ttl="30">
 </div>
 <script type='text/javascript'>
-    (function(d, id) {
+    (function (d, id) {
         if (d.getElementById(id)) return;
         var t = d.createElement('script');
         t.type = 'text/javascript';
