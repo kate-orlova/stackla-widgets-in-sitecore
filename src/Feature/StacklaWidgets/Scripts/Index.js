@@ -25,6 +25,9 @@ class App {
             }
 
             requiredComponents.forEach((component) => {
+                if (element.initalisedComponents[component]) {
+                    return;
+                }
                 const Module = this.components[component];
                 if (Module) {
 
