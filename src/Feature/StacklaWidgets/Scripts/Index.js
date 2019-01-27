@@ -19,8 +19,10 @@ class App {
 
         elementNodes.forEach((elementNode) => {
             const element = elementNode;
-
             const requiredComponents = element.dataset.component.split(' ');
+            if (!element.initalisedComponents) {
+                element.initalisedComponents = {};
+            }
 
             requiredComponents.forEach((component) => {
                 const Module = this.components[component];
