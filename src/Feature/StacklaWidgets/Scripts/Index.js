@@ -9,6 +9,10 @@ class App {
     }
 
     initComponents(container = this.mount) {
+        if (!container) {
+            return;
+        }
+
         const elementNodes = [
             ...container.querySelectorAll(`[data-component]`)
         ];
