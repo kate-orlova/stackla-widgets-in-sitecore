@@ -11,4 +11,10 @@ class App {
     }
   
 }
+const app = new App({
+    components: {
+        loadStacklaWidget: LoadStacklaWidget
+    },
+    mount: '#mount'
+});
 
