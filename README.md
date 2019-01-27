@@ -13,10 +13,11 @@ The Stackla widgets in Sitecore project gives you a few approaches of how to int
 If you simply want to embed a Stackla widget to a specific page on your Sitecore website and load it along with other content on the page then you can use an *EmbedCodeStacklaWidget.cshtml* view approach. The key Stackla settings such as Id, Hash and Filter Id are dynamic and defined in a *StacklaWidget* model, so that you can easily apply relevant settings to you.
 
 ### Event-driven widget
-If you do not want to load a Stackla widget on the initial page load then consider an event-driven approach implemented in an *EventDrivenStacklaWidget.cshtml* view. It contains a link and a section where a Stackla widget will be loaded. The link has a component declaration via a data attribute:
+If you do not want to load a Stackla widget on the initial page load then consider an event-driven approach implemented in an *EventDrivenStacklaWidget.cshtml* view. It contains a link and a section where a Stackla widget will be loaded. The link has a component declaration via a data attribute: ```data-component="loadStacklaWidget"```, what requires the corresponding React component to be registered accordingly.
 
-```data-component="loadStacklaWidget"```
-
+The JavaScript component *StacklaWidget* is implemented in *Scripts\StacklaWidget.js* with the following logic:
+* <a> and <button> tags are defined as "clickable" elements resulting to the widget load; you can add more to a *clickableParentElements* constant variable;
+* a click event is being attached to clickable elements to load the widget when a website visitor clicks on a relevant link / button.
 
 ## License
 The Stackla widgets in Sitecore module is released under the MIT license what means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
