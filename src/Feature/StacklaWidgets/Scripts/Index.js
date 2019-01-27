@@ -18,3 +18,5 @@ const app = new App({
     mount: '#mount'
 });
 
+export default app;
+
