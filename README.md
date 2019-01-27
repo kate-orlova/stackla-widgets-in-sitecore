@@ -10,8 +10,12 @@ Stackla offers three API options for flexible integration: JavaScript, REST and 
 The Stackla widgets in Sitecore project gives you a few approaches of how to integrate a Stackla widget into a Sitecore site.
 
 ### Embed Code
-If you do not plan to change any setting dynamically depending on a specific page where your Stackla widget is placed on then you can use a static *EmbedCodeStacklaWidget.cshtml* view approach on your website with relevant settings to you.
+If you simply want to embed a Stackla widget to a specific page on your Sitecore website and load it along with other content on the page then you can use an *EmbedCodeStacklaWidget.cshtml* view approach. The key Stackla settings such as Id, Hash and Filter Id are dynamic and defined in a *StacklaWidget* model, so that you can easily apply relevant settings to you.
 
+### Event-driven widget
+If you do not want to load a Stackla widget on the initial page load then consider an event-driven approach implemented in an *EventDrivenStacklaWidget.cshtml* view. It contains a link and a section where a Stackla widget will be loaded. The link has a component declaration via a data attribute:
+
+```data-component="loadStacklaWidget"```
 
 
 ## License
