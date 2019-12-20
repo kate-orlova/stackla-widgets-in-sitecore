@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kate-orlova/stackla-widgets-in-sitecore)
 [![GitHub release](https://img.shields.io/github/release-date/kate-orlova/stackla-widgets-in-sitecore.svg?style=flat)](https://github.com/kate-orlova/stackla-widgets-in-sitecore/releases/tag/MVPRelease)
 [![GitHub license](https://img.shields.io/github/license/kate-orlova/stackla-widgets-in-sitecore.svg)](https://github.com/kate-orlova/stackla-widgets-in-sitecore/blob/master/LICENSE)
 ![GitHub language count](https://img.shields.io/github/languages/count/kate-orlova/stackla-widgets-in-sitecore.svg?style=flat)
