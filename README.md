@@ -13,9 +13,9 @@ Stackla widgets in Sitecore project helps you to bring a user-generated content 
 As soon as registered for a specific Stackla product, you will be granted access to Stackla Dashboard where you can create a new widget. Simply go to **Engage > Widgets > Create New Widget** and select one from the available *Widget Types* depending on your license entitlements, next create a filter to specify what social content you would like to load and in what order present items. Once all settings have been completed, your widget code will be generated in the *Embed Code* tab. You will simply need to click on a *Copy* button to get the entire widget code and then paste that embed code into your Sitecore module.
 
 ## Integration
-Stackla offers three API options for flexible integration: JavaScript, REST and Webhooks.
+Stackla offers three API choices for flexible integration: JavaScript, REST and Webhooks.
 
-The Stackla widgets in Sitecore project gives you a few approaches of how to integrate a Stackla widget into a Sitecore site.
+The Stackla widgets in Sitecore project gives you two options of how to integrate a Stackla widget into a Sitecore site, both compatible with any Sitecore version.
 
 ### Option 1: Embed Code
 If you simply want to embed a Stackla widget to a specific page on your Sitecore website and load it along with other content on the page then you can use an *EmbedCodeStacklaWidget.cshtml* view approach. The key Stackla settings such as Id, Hash and Filter Id are dynamic and defined in a *StacklaWidget* model, so that you can easily apply relevant settings to you.
