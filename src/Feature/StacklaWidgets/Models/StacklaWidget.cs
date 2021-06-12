@@ -1,11 +1,9 @@
-﻿using Glass.Mapper.Sc.Configuration.Attributes;
-
-namespace StacklaWidgets.Models
+﻿namespace StacklaWidgets.Models
 {
     public class StacklaWidget
     {
-        [SitecoreField("Stackla Id")] public virtual string StacklaId { get; set; }
-        [SitecoreField("Stackla Filter Id")] public virtual string StacklaFilterId { get; set; }
-        [SitecoreField("Stackla Hash")] public virtual string StacklaHash { get; set; }
+        public virtual string StacklaId { get; set; }
+        public virtual string StacklaFilterId { get; set; }
+        public virtual string StacklaHash { get; set; }
     }
 }
